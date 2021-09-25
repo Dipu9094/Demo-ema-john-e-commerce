@@ -24,7 +24,7 @@ const Product = (props) => {
                     fullSymbol="fas fa-star icon-color"
                     readonly
                 />
-                <br />
+                <br /> <br />
                 <button
                     className="purchase"
                     onClick={() => props.handleAddToCart(props.product)}
